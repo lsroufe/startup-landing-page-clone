@@ -55,3 +55,12 @@ body {
     cursor: pointer;
     color: #333333;
 }
+
+.introduction {
+	background-image: url('../first-background.jpg');
+	background-position: center bottom;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 45.938rem;
+	overflow: auto;
+}
