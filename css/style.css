@@ -65,6 +65,10 @@ body {
 	height: 45.938rem;
 }
 
+.introduction > .content {
+	padding-top: 10rem;
+}
+
 .introduction h1,
 .introduction h3 {
 	color: white;
