@@ -120,3 +120,24 @@ button:hover {
     border-color: #cf3d0e;
     cursor: pointer;
 }
+
+/* Three Icon Section */
+
+.cases .content {
+	width: 800px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+
+.cases .content li {
+	list-style: none;
+	float: left;
+	width: 33.3333333%;
+}
+
+.cases img {
+	width: 100px;
+	height: 100px;
+}
+
