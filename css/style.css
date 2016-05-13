@@ -198,9 +198,11 @@ button:hover {
 
  /* Media Queries */
 
- @media only screen and (max-width: 500px) {
+@media only screen and (max-width: 500px) {
+    .masthead {
+        padding: 3em 0;
+    }
     .masthead-heading {
         font-size: 3em;
     }
 }
-
