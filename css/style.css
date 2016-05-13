@@ -5,10 +5,13 @@ body {
 	letter-spacing: 0.03em;
 }
 
+ul {
+	padding: 0;
+}
+
 .content {
 	padding: 0 0.938rem;
 	margin: 0 auto;
-	min-width: 37.5rem;
 }
 
 :focus {
@@ -123,6 +126,10 @@ button:hover {
 
 /* Three Icon Section */
 
+.cases {
+	overflow: hidden;
+}
+
 .cases .content {
 	width: 800px;
 	margin: 0 auto;
@@ -141,3 +148,31 @@ button:hover {
 	height: 100px;
 }
 
+/* Footer Section */
+
+.social .content {
+	width: 250px;
+}
+
+.social h5 {
+	display:block;
+	text-align: center;
+}
+
+.social .icons {
+	list-style: none;
+}
+
+.social .icons li {
+	float: left;
+	margin: 0 auto;
+	text-align: center;
+	width: 33.3333333%;
+}
+.social i {
+	border: #BBB solid 1px;
+    border-radius: 69px;
+    width: 30px;
+    height: 24px;
+    padding-top: 7px;
+}
