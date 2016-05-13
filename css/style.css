@@ -196,3 +196,11 @@ button:hover {
     padding-top: 7px;
 }
 
+ /* Media Queries */
+
+ @media only screen and (max-width: 500px) {
+    .masthead-heading {
+        font-size: 3em;
+    }
+}
+
